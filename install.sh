@@ -129,7 +129,7 @@ install_EzNode() {
     chmod +x EzNode
     mkdir /etc/EzNode/ -p
     rm /etc/systemd/system/EzNode.service -f
-    file="https://github.com/overkillzero/EzNode/raw/master/EzNode.service"
+    file="https://raw.githubusercontent.com/overkillzero/EzNode/main/EzNode.service"
     wget -q -N --no-check-certificate -O /etc/systemd/system/EzNode.service ${file}
     systemctl daemon-reload
     systemctl stop EzNode
