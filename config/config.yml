@@ -1,0 +1,20 @@
+Nodes:
+  - PanelType: "AikoPanel"
+    ApiConfig:
+      ApiHost: "http://127.0.0.1:123"
+      ApiKey: "123"
+      NodeID: 1
+      NodeType: V2ray 
+      Timeout: 30 
+      EnableVless: false 
+      RuleListPath:
+    ControllerConfig:
+      EnableProxyProtocol: false
+      DisableLocalREALITYConfig: false
+      EnableREALITY: false
+      REALITYConfigs:
+        Show: true
+      CertConfig:
+        CertMode: none 
+        CertFile: /etc/EzNode/cert/crt.cert
+        KeyFile: /etc/EzNode/cert/pri.key

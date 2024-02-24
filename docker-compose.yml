@@ -1,0 +1,8 @@
+version: '3'
+services: 
+  eznode: 
+    image: aikocute/aikocutehotme:latest
+    volumes:
+      - ./config:/etc/EzNode/
+    restart: always
+    network_mode: host
